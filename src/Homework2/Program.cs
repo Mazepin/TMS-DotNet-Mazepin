@@ -11,8 +11,14 @@ namespace Homework2
 
             Console.Write( " Введите дату (число-месяц-год): ");
             var userdate = Console.ReadLine();
-            var userdayOfweek = DateTime.Parse(userdate).DayOfWeek;
-            Console.WriteLine( " Введенная дата: " + userdayOfweek);
+            bool userdayOfweek = DateTime.TryParse(userdate, out DateTime day);
+            if (userdayOfweek == true)
+            {
+                Console.WriteLine(day.DayOfWeek);
+                    }
+            else
+            { Console.WriteLine(" Неверный формат ( dd-mm-yyyy) " ); 
+                    }
             Console.ReadLine();
 
 
