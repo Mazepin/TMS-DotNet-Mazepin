@@ -9,7 +9,7 @@ namespace Homework2
             // DateTime
             // определение дня недели по введенной дате
 
-            Console.Write( " Введите дату (число-месяц-год): ");
+            
             var userdate = Console.ReadLine();
             bool userdayOfweek = DateTime.TryParse(userdate, out DateTime day);
             if (userdayOfweek == true)
