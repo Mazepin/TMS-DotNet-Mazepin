@@ -30,6 +30,7 @@ namespace Mazepin.Homework3
 
                 while (!secondDate)
                 {
+                    Console.Clear();
                     Console.WriteLine(" Введите конечную дату (число-месяц-год): ");
                     secondDate = DateTime.TryParse(Console.ReadLine(), out date1);
 
