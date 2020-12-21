@@ -9,19 +9,22 @@ namespace Mazepin.Homework3
             // DateTime
             // Обработчик введенного дня недели
             {
+                
                 bool firstDate = false;
                 bool secondDate = false;
                 DateTime date = new DateTime();
                 DateTime date1 = new DateTime();
-
+           
                 while (!firstDate)
                 {
+                    Console.Clear();
                     Console.WriteLine(" Введите начальную дату (число-месяц-год): ");
                     firstDate = DateTime.TryParse(Console.ReadLine(), out date);
 
                     if (!firstDate)
                     {
                         Console.WriteLine("Ошибка!!! Неверный формат ( dd-mm-yyyy)!!! Попробуйте снова ");
+                        Console.ReadLine();
                     }
                 }
 
@@ -37,6 +40,7 @@ namespace Mazepin.Homework3
                     else if (date > date1)
                     {
                         Console.WriteLine("Ошибка!!! Вторая дата должна идти после первой. Попробуйте снова ");
+                        Console.ReadLine();
                     }
                 }
 
