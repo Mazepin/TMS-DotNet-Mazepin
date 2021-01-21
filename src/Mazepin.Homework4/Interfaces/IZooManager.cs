@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mazepin.Homework4.Interfaces
 {
-    interface IZooManager
+    public interface IZooManager
 
     {
     }
