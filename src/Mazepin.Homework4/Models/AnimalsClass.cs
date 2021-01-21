@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace Mazepin.Homework4.Models
 {
-    public class Animals
+    public class AnimalsClass<Test>
     {
+        public string Name { get; set; }
+
+        public Test Age { get; set; }
     }
 }

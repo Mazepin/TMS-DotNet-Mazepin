@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mazepin.Homework4.Models
 {
-    public class Bear : Animals
+    public class Bear : AnimalsClass<int>
     {
         static void AnimalVoice()
         {

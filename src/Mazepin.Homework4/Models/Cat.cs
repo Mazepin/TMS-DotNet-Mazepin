@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Mazepin.Homework4.Models
 {
-    public class Cat : Animals
+    public class Cat : AnimalsClass<int>
     {
+        public void Say()
+        {
+            Console.WriteLine("What does the cat say?");
+        }
     }
 }
