@@ -13,21 +13,44 @@ namespace Mazepin.Homework5_ATM
 
             Console.WriteLine($"Hello! Your curently balance is: 0 BYN");
 
-            Console.Write("\nEnter the amount of money to put:");
-            decimal amountMoneyPut = decimal.Parse(Console.ReadLine());
-            atm.PutMoney(amountMoneyPut);
-            Console.WriteLine("===============");
+            while (true)
+            {
+                Console.WriteLine("\nPress the key corresponding to the required operation: ");
+                Console.WriteLine("Put money Press - 1 ");
+                Console.WriteLine("Get money Press - 2 ");
+                Console.WriteLine("Show balance Press - 3 ");
+                Console.WriteLine("Exit Press - 4 ");
 
-            Console.Write("\nEnter the amount of money to get:");
-            decimal amountMoneyGet = decimal.Parse(Console.ReadLine());
-            atm.GetMoney(amountMoneyGet);
-            Console.WriteLine("===============");
+                string selectionButton = Console.ReadLine();
+                switch (selectionButton)
+                {
+                    case "1":
+                        Console.Write("\nEnter the amount of money to put:");
+                        decimal amountMoneyPut = decimal.Parse(Console.ReadLine());
+                        atm.PutMoney(amountMoneyPut);
+                        Console.WriteLine("===============");
+                        break;
 
-            Console.Write("\nСlick B to view balance "); // условно, можно нажать любую клавишу
-            string balanceInfo = Console.ReadLine();
-            atm.GetInfo();
+                    case "2":
+                        Console.Write("\nEnter the amount of money to get:");
+                        decimal amountMoneyGet = decimal.Parse(Console.ReadLine());
+                        atm.GetMoney(amountMoneyGet);
+                        Console.WriteLine("===============");
+                        break;
 
-            Console.ReadKey();
+                    case "3":
+                        atm.GetInfo();
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Goodbye! Thank you for using our bank ");
+                        return;
+
+                    default:
+                        Console.WriteLine("Шncorrect input!!!");
+                        break;
+                }
+            }
         }
         public static void InfoBalance(decimal amount, string operation)
         {
