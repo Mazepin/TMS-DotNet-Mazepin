@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazepin.Homework4", "src\Mazepin.Homework4\Mazepin.Homework4.csproj", "{745321E7-86F2-4774-8466-44BD781C51F2}"
+
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazepin.Homework5 ATM", "Mazepin.Homework5 ATM\Mazepin.Homework5 ATM.csproj", "{4C88BE82-F02F-4DF2-930E-B871EDEB7EF9}"
 
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mazepin.Lesson2", "src\Mazepin.Homework1\Mazepin.Lesson2.csproj", "{BFCC9D02-6D8A-42EA-A1E6-16EA947724FE}"
@@ -14,6 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mazepin.Homework3", "src\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4", "src\Lesson4\Lesson4.csproj", "{A56A09BF-146C-4EE0-9E85-581B6FEF40A0}"
 
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+		{745321E7-86F2-4774-8466-44BD781C51F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745321E7-86F2-4774-8466-44BD781C51F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745321E7-86F2-4774-8466-44BD781C51F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745321E7-86F2-4774-8466-44BD781C51F2}.Release|Any CPU.Build.0 = Release|Any CPU
+
 
 		{4C88BE82-F02F-4DF2-930E-B871EDEB7EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C88BE82-F02F-4DF2-930E-B871EDEB7EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -43,6 +53,7 @@ Global
 		{A56A09BF-146C-4EE0-9E85-581B6FEF40A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56A09BF-146C-4EE0-9E85-581B6FEF40A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56A09BF-146C-4EE0-9E85-581B6FEF40A0}.Release|Any CPU.Build.0 = Release|Any CPU
+
 
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
