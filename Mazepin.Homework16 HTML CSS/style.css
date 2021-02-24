@@ -1,0 +1,92 @@
+body {
+    font-family: "Trirong", serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+.main {
+    width: 600px;
+    margin: auto;
+}
+
+nav ul {
+    width: 150px; 
+    padding: 0px;
+      
+}
+
+li {
+    width: 150px;
+    height: 25px;
+    background-color: #dce4dc;
+    border-radius: 5px;
+    padding-left: 4px;
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 4px;
+    border: 1px solid #959694
+    
+}
+
+li:hover{
+    background-color: white;
+   
+}
+
+.content{
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-description{
+   width: 420px;
+   margin: 12px;
+   padding:5px;
+}
+
+.main-decription-item{
+    margin-bottom: 20px;
+    text-align: start;
+    color: black;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.header {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.infoStavka{
+  background-color: #dce4dc;
+  border-radius: 5px;
+  margin-top: 140px;
+  text-align: center;
+  font-size: 10pt;
+  border: 1px solid #727070;
+  box-shadow: 10px 10px 10px #727070;
+}
+
+.li1{
+  text-decoration: none;
+}
+
+.li1:hover{
+   text-decoration: underline; 
+   color: #f10a0af2;
+}
+
+h3{
+  font-size: 20pt;
+}
+
+.image:hover{
+  transform: rotate(360deg) scale(2.0);
+}
+
+.image{
+  transition: 1s;
+}
