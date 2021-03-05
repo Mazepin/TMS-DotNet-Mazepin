@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .main {
-    width: 600px;
+    width: 800px;
     margin: auto;
 }
 
@@ -26,8 +26,13 @@ li {
     list-style-type: none;
     text-align: left;
     margin-bottom: 4px;
-    border: 1px solid #959694
+    border: 1px solid #959694;
     
+    
+}
+
+.li1{
+  color: black;
 }
 
 li:hover{
@@ -44,6 +49,9 @@ li:hover{
    width: 420px;
    margin: 12px;
    padding:5px;
+   font-family: "Trirong", serif;
+   
+   
 }
 
 .main-decription-item{
@@ -52,7 +60,31 @@ li:hover{
     color: black;
     border-radius: 5px;
     padding-left: 5px;
+    font-family: "Trirong", serif;
+    
+   
 }
+
+.side-bar{
+  background-color: #32A4E7;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #959694;
+  padding: 4px;
+  margin-top: 12px;
+  text-align: left;
+  font-family: "Trirong", serif;
+  color: white;
+  
+
+}
+h4{
+  font-size: 20pt;
+  color:  white;
+  
+
+}
+
 .header {
     background-color: #4CAF50;
     color: white;
@@ -63,7 +95,7 @@ li:hover{
 .infoStavka{
   background-color: #dce4dc;
   border-radius: 5px;
-  margin-top: 140px;
+  margin-top: 12px;
   text-align: center;
   font-size: 10pt;
   border: 1px solid #727070;
@@ -76,7 +108,7 @@ li:hover{
 
 .li1:hover{
    text-decoration: underline; 
-   color: #f10a0af2;
+   
 }
 
 h3{
@@ -89,4 +121,5 @@ h3{
 
 .image{
   transition: 1s;
+  border-radius: 5px;
 }
